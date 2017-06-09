@@ -1,0 +1,46 @@
+{
+    "name": "vscode-atom-sass-snippet",
+    "displayName": "Atom Sass Snippet",
+    "version": "0.0.1",
+    "description": "Atom Sass Snippet for Visual Studio Code.",
+    "scripts": {
+      "build": "vsce package"
+    },
+    "publisher": "gluons",
+    "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^0.10.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "galleryBanner": {
+      "color": "#5FB57D",
+      "theme": "dark"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "sass",
+                "path": "./snippets/scss.json"
+            }
+        ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gluons/vscode-atom-sass-snippet.git"
+    },
+    "keywords": [
+      "atom",
+      "scss",
+      "sass",
+      "snippet",
+      "snippets"
+    ],
+    "bugs": {
+      "url": "https://github.com/gluons/vscode-atom-sass-snippet/issues"
+    },
+    "homepage": "https://github.com/gluons/vscode-atom-sass-snippet",
+    "private": true
+}
