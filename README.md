@@ -1,5 +1,7 @@
 # Atom Sass Snippet
 [![license](https://img.shields.io/github/license/gluons/vscode-atom-sass-snippet.svg?style=flat-square)](./LICENSE)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/gluons.vscode-atom-sass-snippet.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=gluons.vscode-atom-sass-snippet)
+[![Visual Studio Marketplace installs](https://vsmarketplacebadge.apphb.com/installs/gluons.vscode-atom-sass-snippet.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=gluons.vscode-atom-sass-snippet)
 
 ⚛ Atom [Sass](http://sass-lang.com/) Snippet for Visual Studio Code.
 
