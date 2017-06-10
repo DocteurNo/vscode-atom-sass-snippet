@@ -4,7 +4,7 @@
 		"body": "@include ${0};",
 		"description": "Include a mixin."
 	},
-	"@extend'": {
+	"@extend": {
 		"prefix": "extend",
 		"body": "@extend $0;",
 		"description": "Extend another CSS class."
