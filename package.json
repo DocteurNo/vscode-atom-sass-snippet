@@ -3,6 +3,7 @@
     "displayName": "Atom Sass Snippet",
     "version": "0.0.1",
     "description": "Atom Sass Snippet for Visual Studio Code.",
+    "icon": "assets/icon.svg",
     "scripts": {
       "build": "vsce package"
     },
@@ -10,7 +11,7 @@
     "author": "Saran Tanpituckpong <sarunta@gmail.com>",
     "license": "MIT",
     "engines": {
-        "vscode": "^0.10.0"
+        "vscode": "^1.12.0"
     },
     "categories": [
         "Snippets"
@@ -19,10 +20,17 @@
       "color": "#5FB57D",
       "theme": "dark"
     },
+    "badges": [
+      {
+        "description": "License",
+        "url": "https://img.shields.io/github/license/gluons/vscode-atom-sass-snippet.svg?style=flat-square",
+        "href": "https://github.com/gluons/vscode-atom-sass-snippet/blob/master/LICENSE"
+      }
+    ],
     "contributes": {
         "snippets": [
             {
-                "language": "sass",
+                "language": "scss",
                 "path": "./snippets/scss.json"
             }
         ]
