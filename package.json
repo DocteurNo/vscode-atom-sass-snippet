@@ -1,7 +1,7 @@
 {
     "name": "vscode-atom-sass-snippet",
     "displayName": "Atom Sass Snippet",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Atom Sass Snippet for Visual Studio Code.",
     "icon": "assets/icon.svg",
     "scripts": {
