@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.3
+- Add snippets for `.sass` file. (Ref: #2)
+- Add `!important` for `.scss` file.
+
 ## v0.0.2
 - Add Visual Studio Marketplace badges.
 
