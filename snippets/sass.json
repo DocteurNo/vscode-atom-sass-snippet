@@ -1,0 +1,54 @@
+{
+	"!important": {
+		"prefix": "!",
+		"body": [
+			"!important${1:;}$0"
+		]
+	},
+	"@import": {
+		"prefix": "import",
+		"body": [
+			"@import \"$0\""
+		]
+	},
+	"@include": {
+		"prefix": "include",
+		"body": [
+			"@include ${0}"
+		],
+		"description": "Include a mixin."
+	},
+	"@extend": {
+		"prefix": "extend",
+		"body": [
+			"@extend $0"
+		],
+		"description": "Extend another CSS class."
+	},
+	"@if": {
+		"prefix": "if",
+		"body": [
+			"@if ${1:conditions}",
+			"\t$0"
+		],
+		"description": "Takes a SassScript expression and uses styles nested beneath if the expression returns true."
+	},
+	"@mixin": {
+		"prefix": "mixin",
+		"body": [
+			"@mixin ${1:name} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Mixins allow you to define styles that can be re-used throughout the stylesheet."
+	},
+	"@function": {
+		"prefix": "func",
+		"body": [
+			"@function ${1:name}(${2:arguments}) {",
+			"\t@return ${3:returnValue};",
+			"}"
+		],
+		"description": "Define your own functions."
+	}
+}

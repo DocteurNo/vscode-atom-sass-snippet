@@ -1,64 +1,68 @@
 {
-    "name": "vscode-atom-sass-snippet",
-    "displayName": "Atom Sass Snippet",
-    "version": "0.0.2",
-    "description": "Atom Sass Snippet for Visual Studio Code.",
-    "icon": "assets/icon.svg",
-    "scripts": {
-      "build": "vsce package"
+  "name": "vscode-atom-sass-snippet",
+  "displayName": "Atom Sass Snippet",
+  "version": "0.0.2",
+  "description": "Atom Sass Snippet for Visual Studio Code.",
+  "icon": "assets/icon.svg",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "publisher": "gluons",
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "galleryBanner": {
+    "color": "#5FB57D",
+    "theme": "dark"
+  },
+  "badges": [
+    {
+      "description": "License",
+      "url": "https://img.shields.io/github/license/gluons/vscode-atom-sass-snippet.svg?style=flat-square",
+      "href": "https://github.com/gluons/vscode-atom-sass-snippet/blob/master/LICENSE"
     },
-    "publisher": "gluons",
-    "author": "Saran Tanpituckpong <sarunta@gmail.com>",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.12.0"
+    {
+      "description": "Visual Studio Marketplace",
+      "url": "https://vsmarketplacebadge.apphb.com/version/gluons.vscode-atom-sass-snippet.svg?style=flat-square",
+      "href": "https://marketplace.visualstudio.com/items?itemName=gluons.vscode-atom-sass-snippet"
     },
-    "categories": [
-        "Snippets"
-    ],
-    "galleryBanner": {
-      "color": "#5FB57D",
-      "theme": "dark"
-    },
-    "badges": [
-      {
-        "description": "License",
-        "url": "https://img.shields.io/github/license/gluons/vscode-atom-sass-snippet.svg?style=flat-square",
-        "href": "https://github.com/gluons/vscode-atom-sass-snippet/blob/master/LICENSE"
-      },
-      {
-        "description": "Visual Studio Marketplace",
-        "url": "https://vsmarketplacebadge.apphb.com/version/gluons.vscode-atom-sass-snippet.svg?style=flat-square",
-        "href": "https://marketplace.visualstudio.com/items?itemName=gluons.vscode-atom-sass-snippet"
-      },
-      {
-        "description": "Visual Studio Marketplace installs",
-        "url": "https://vsmarketplacebadge.apphb.com/installs/gluons.vscode-atom-sass-snippet.svg?style=flat-square",
-        "href": "https://marketplace.visualstudio.com/items?itemName=gluons.vscode-atom-sass-snippet"
-      }
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "scss",
-                "path": "./snippets/scss.json"
-            }
-        ]
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/gluons/vscode-atom-sass-snippet.git"
-    },
-    "keywords": [
-      "atom",
-      "scss",
-      "sass",
-      "snippet",
-      "snippets"
-    ],
-    "bugs": {
-      "url": "https://github.com/gluons/vscode-atom-sass-snippet/issues"
-    },
-    "homepage": "https://github.com/gluons/vscode-atom-sass-snippet",
-    "private": true
+    {
+      "description": "Visual Studio Marketplace installs",
+      "url": "https://vsmarketplacebadge.apphb.com/installs/gluons.vscode-atom-sass-snippet.svg?style=flat-square",
+      "href": "https://marketplace.visualstudio.com/items?itemName=gluons.vscode-atom-sass-snippet"
+    }
+  ],
+  "contributes": {
+      "snippets": [
+          {
+            "language": "scss",
+            "path": "./snippets/scss.json"
+          },
+          {
+            "language": "sass",
+            "path": "./snippets/sass.json"
+          }
+      ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gluons/vscode-atom-sass-snippet.git"
+  },
+  "keywords": [
+    "atom",
+    "scss",
+    "sass",
+    "snippet",
+    "snippets"
+  ],
+  "bugs": {
+    "url": "https://github.com/gluons/vscode-atom-sass-snippet/issues"
+  },
+  "homepage": "https://github.com/gluons/vscode-atom-sass-snippet",
+  "private": true
 }
