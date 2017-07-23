@@ -11,6 +11,11 @@ This snippet is based on [atom/language-sass](https://github.com/atom/language-s
 
 ## Snippets
 
+### [`!`] !important
+```scss
+!important;
+```
+
 ### [`include`] @include
 ```scss
 @include ;
