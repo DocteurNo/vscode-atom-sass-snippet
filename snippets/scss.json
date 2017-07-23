@@ -1,4 +1,10 @@
 {
+	"!important": {
+		"prefix": "!",
+		"body": [
+			"!important${1:;}$0"
+		]
+	},
 	"@include": {
 		"prefix": "include",
 		"body": "@include ${0};",
